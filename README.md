@@ -1,6 +1,6 @@
 # MyBlog
 
-> **Fullstack blog cá nhân** — Vue 3 + Spring Boot, JWT auth, quản lý bài viết, chủ đề, trang giới thiệu và trích dẫn. Giao diện tối màu, responsive, có editor rich text và khóa form đăng nhập chống spam.
+> **Fullstack blog cá nhân** — Vue 3 + Spring Boot, JWT auth.
 
 [![Vue 3](https://img.shields.io/badge/Vue-3.5-4FC08D?logo=vue.js)](https://vuejs.org/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2-6DB33F?logo=spring)](https://spring.io/projects/spring-boot)
@@ -9,14 +9,6 @@
 ---
 
 ## ✨ Tính năng
-
-- **Blog công khai**: Trang chủ, danh sách bài theo chủ đề, xem bài chi tiết
-- **Trang Giới thiệu**: Nội dung tùy chỉnh, cập nhật qua admin
-- **Trích dẫn (Quotes)**: API quotes random cho widget / trích dẫn
-- **Đăng nhập / Đăng ký**: JWT, phân quyền Admin / User
-- **Chống spam đăng nhập**: Sau 3 lần sai (bất kỳ tài khoản), form login khóa 5 phút phía client
-- **Admin**: Quản lý bài viết (CRUD), chủ đề, about, rich text editor
-- **Profile**: Cập nhật avatar, thông tin cá nhân
 
 ---
 
