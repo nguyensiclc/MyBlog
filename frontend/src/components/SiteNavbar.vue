@@ -75,6 +75,7 @@ import { useRouter } from 'vue-router';
 import { useAuthStore } from '../stores/auth';
 import { useTopicsStore } from '../stores/topics';
 import LogoIcon from './LogoIcon.vue';
+import { API_BASE } from '../api/config';
 
 const router = useRouter();
 const authStore = useAuthStore();
@@ -84,7 +85,6 @@ const userWrapRef = ref(null);
 const openDropdownId = ref(null);
 const navLinksRef = ref(null);
 
-const API_BASE = 'http://localhost:8080';
 const avatarUrl = computed(() =>
   authStore.avatarPath ? `${API_BASE}${authStore.avatarPath}` : null
 );

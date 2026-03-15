@@ -506,8 +506,8 @@ import { useHomeSectionsStore } from '../stores/homeSections';
 import { useTopicsStore } from '../stores/topics';
 import LogoIcon from '../components/LogoIcon.vue';
 import RichTextEditor from '../components/RichTextEditor.vue';
+import { API_BASE } from '../api/config';
 
-const API_BASE = 'http://localhost:8080';
 const authStore = useAuthStore();
 const aboutStore = useAboutStore();
 const homeSections = useHomeSectionsStore();

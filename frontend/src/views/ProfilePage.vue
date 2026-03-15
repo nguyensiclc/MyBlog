@@ -199,8 +199,7 @@
 import { ref, reactive, computed, onMounted } from 'vue';
 import { useAuthStore } from '../stores/auth';
 import AvatarCropModal from '../components/AvatarCropModal.vue';
-
-const API_BASE = 'http://localhost:8080';
+import { API_BASE } from '../api/config';
 
 const authStore = useAuthStore();
 const profile = ref(null);

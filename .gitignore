@@ -26,3 +26,7 @@ Thumbs.db
 # Logs
 *.log
 npm-debug.log*
+
+# CDK / AWS infra (local copy, không đưa lên git)
+Code_CDK/
+CODE_CDK/

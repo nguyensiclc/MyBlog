@@ -123,8 +123,7 @@
 import { ref, onMounted } from 'vue';
 import LogoIcon from './LogoIcon.vue';
 import TodayWidget from './TodayWidget.vue';
-
-const API_BASE = 'http://localhost:8080';
+import { API_BASE } from '../api/config';
 
 /** Bật lại thành true khi muốn hiện Điều hướng, Kết nối, Khác. */
 const showFooterNav = false;

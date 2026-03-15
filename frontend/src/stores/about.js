@@ -1,9 +1,9 @@
 import { defineStore } from 'pinia';
 import { ref } from 'vue';
 import { useAuthStore } from './auth';
+import { API_BASE } from '../api/config';
 
 const STORAGE_KEY = 'about_me';
-const API_BASE = 'http://localhost:8080';
 
 function loadFromStorage() {
   try {

@@ -91,6 +91,7 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue';
 import { useAuthStore } from '../stores/auth';
+import { API_BASE } from '../api/config';
 
 const LOCK_KEY = 'loginFormLock';
 const MAX_FAILED = 3;
@@ -165,7 +166,7 @@ async function handleLogin() {
   loading.value = true;
 
   try {
-    const res = await fetch('http://localhost:8080/api/auth/login', {
+    const res = await fetch(`${API_BASE}/api/auth/login`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({

@@ -1,7 +1,6 @@
 import { defineStore } from 'pinia';
 import { ref } from 'vue';
-
-const API_BASE = 'http://localhost:8080';
+import { API_BASE } from '../api/config';
 
 export const useTopicsStore = defineStore('topics', () => {
   const tree = ref([]);
